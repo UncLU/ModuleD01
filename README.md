@@ -27,7 +27,7 @@ firewall-cmd --reload;
 
 `systemctl restart docker;`
 
-Затем зашел на виртуальную машину, которая будет у нас master node. И выполняем следующую команду:
+Затем зашел на виртуальную машину, которая будет у нас master node. И выполнил следующую команду:
 
 `docker swarm init`
 
@@ -36,7 +36,7 @@ firewall-cmd --reload;
 `docker swarm join --token SWMTKN-1-54k2k418tw2j0juwm3inq6crp4ow6xogswihcc5azg7oq5qo7e-a3rfeyfwo7d93heq0y5vhyzod 192.168.10.14:2377`
 
 Выполнил на всех worker node, чтобы присоединить их в только что созданный кластер.
-Выполнив следующую команду на manager ноде в консоли, вы увидите что-то подобное:
+Выполнив следующую команду на manager ноде в консоли, увидим:
 
 ### docker node ls && docker service ls
 
