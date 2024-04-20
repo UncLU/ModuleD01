@@ -1,0 +1,13 @@
+.terraform/
+.terraform.lock.hcl
+.tflint.hcl
+lb
+key.json
+main.tf.back
+meta.txt
+modules_instance_outputs
+modules_instance_variables
+.pre-commit-config.yaml
+temp.txt
+/modules/instance/.terraform/
+/modules/instance/.terraform.lock.hcl
